@@ -15,7 +15,7 @@ node_js:
   keep-histor: true
   github-token: $GITHUB_TOKEN
   local-dir: dist/
-  target-branch: gh-pages
+  target-brach: gh-pages
   commit_message: "Deploy Release"
   on:
     branch: master
